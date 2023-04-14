@@ -1,0 +1,52 @@
+.login {
+  height: 100vh;
+  background-color: rgb(189, 151, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: linear-gradient(rgba(111, 28, 136, 0.5), rgba(173, 81, 225, 0.5)),
+    url("https://images.pexels.com/photos/14536998/pexels-photo-14536998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+  min-height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 200px;
+  padding-top: 200px;
+}
+
+.validate {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 20px 130px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: larger;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  color: rgb(9, 9, 9);
+}
+button {
+  background-color: #180513;
+  font-size: 20px;
+  padding: 10px 85px;
+  color: aliceblue;
+  border-radius: 5px;
+}
